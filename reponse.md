@@ -43,7 +43,7 @@
 ### b) Différence entre le modèle OSI et TCP/IP (2.5 pts)
 
 ```
-Le modèle OSI  est un modèle théorique à qui separe les 7 couches qui ,en théorie 7 fonctions diferents, alors que le modèle TCP/IP est le modèle pratique utilisé sur Internet, structuré en 4 couches qui regroupe plusieur sous-couche car ils ont la même nature. 
+Le modèle OSI  est un modèle théorique à qui separe les 7 couches qui ,en théorie 7 fonctions diferents, alors que le modèle TCP/IP est le modèle pratique utilisé sur Internet, structuré en 4 couches qui regroupe plusieur sous-couche car ils ont la même nature.      
 
 
 ```

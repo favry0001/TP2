@@ -11,8 +11,8 @@ Outil de diagnostic réseau automatisé développé en Bash sous WSL. Ce projet 
 * `/captures` : Dossier des 7 captures 
     1. Configuration réseau
     2. Tests ping  
-    3. Table ARP et DNS
-    4. Wireshark ICMP
+    3. Table ARP et  DNS
+    4. Wireshark  ICMP
     5. Wireshark DNS
     6. Wireshark ARP
     7. Résultat final du script

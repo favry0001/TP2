@@ -53,8 +53,8 @@ fi
 # Test Internet 
 if ping -c 1 8.8.8.8 > /dev/null 2>&1; then
     echo -e "Internet (8.8.8.8) : ${GREEN}RÉUSSI${NC}"
-else
-    echo -e "Internet (8.8.8.8) : ${RED}ÉCHEC${NC}"
+else  #en cas d'échec, afficher un message d'erreur
+    echo -e "Internet (8.8.8.8) : ${RED}ÉCHEC veiller vérifier votre connexion réseau${NC}"
 fi
 
 # Test Résolution DNS GG
@@ -79,3 +79,5 @@ nslookup google.com | grep "Address" | tail -n 1
 echo "Pour github.com :"
 nslookup github.com | grep "Address" | tail -n 1
 echo " "
+
+
